@@ -5,3 +5,10 @@ body {
     background-color:black;
     color:white;
 }
+.fullbody {
+    background-color:red;
+    color:white;
+}
+.orderedlist {
+    font-size: 140%;
+}
