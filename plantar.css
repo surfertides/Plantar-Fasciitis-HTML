@@ -13,7 +13,7 @@ body {
     font-size: 140%;
 }
 .glossaryborder {
-    width: 270px;
+    width: 340px;
     height: 120px;
     border-left: 4px solid #0080FF;
     border-top: 4px solid #0080FF;
@@ -23,6 +23,9 @@ body {
     text-indent: 14px;
     flex-wrap: wrap;
     align-content: center;
+}
+.glossaryindent {
+    text-indent: 14px;
 }
 .glossary {
     color:#0080FF;
@@ -34,4 +37,21 @@ body {
 }
 .glossaryoptions:link, .glossaryoptions:visited {
     color:#0080FF;
+}
+.navigation {
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: none;
+    position: relative;
+}
+.button_center {
+    text-align: center;
 }
