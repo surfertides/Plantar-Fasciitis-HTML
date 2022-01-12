@@ -42,8 +42,9 @@ body {
     text-align: center;
     display: inline-block;
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     text-decoration: none;
     font-size: 18px;
     color: white;
@@ -52,6 +53,17 @@ body {
     border: none;
     position: relative;
 }
+
 .button_center {
     text-align: center;
+}
+.navigation:hover {
+    background-color:#1164B4;
+}
+.linkoptions {
+    text-decoration: none;
+    color: white;
+}
+.linkoptions:link, .linkoptions:visited {
+    color: white;
 }
