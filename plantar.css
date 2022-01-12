@@ -12,3 +12,26 @@ body {
 .orderedlist {
     font-size: 140%;
 }
+.glossaryborder {
+    width: 270px;
+    height: 120px;
+    border-left: 4px solid #0080FF;
+    border-top: 4px solid #0080FF;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    text-indent: 14px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.glossary {
+    color:#0080FF;
+    font-family: helvetica;
+}
+.glossaryoptions {
+    color: #0080FF;
+    font-family: helvetica;
+}
+.glossaryoptions:link, .glossaryoptions:visited {
+    color:#0080FF;
+}
