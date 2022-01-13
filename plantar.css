@@ -6,7 +6,7 @@ body {
     color:white;
 }
 .fullbody {
-    background-color:red;
+    background-color:#1164B4;
     color:white;
 }
 .orderedlist {
@@ -14,9 +14,8 @@ body {
 }
 .glossaryborder {
     width: 340px;
-    height: 120px;
+    height: 160px;
     border-left: 4px solid #0080FF;
-    border-top: 4px solid #0080FF;
     text-decoration: none;
     display: inline-block;
     text-align: left;
@@ -24,16 +23,62 @@ body {
     flex-wrap: wrap;
     align-content: center;
 }
-.glossaryindent {
+.fullbodystretchesindex {
+    width: 340px;
+    height: 160px;
+    border-left: 4px solid black;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
     text-indent: 14px;
+    flex-wrap: wrap;
+    align-content: center;
+    color: gray;
+}
+.fullbodystretchesindexsmall {
+    width: 500px;
+    height: 160px;
+    border-left: 4px solid black;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    text-indent: 14px;
+    flex-wrap: wrap;
+    align-content: center;
+    color: gray;
 }
 .glossary {
     color:#0080FF;
     font-family: helvetica;
+    text-align: left;
+    text-indent: 53px;
+}
+.fullbodyindex {
+    color:#E86100;
+    font-family: helvetica;
+    text-align: left;
+    text-indent: 53px;
+}
+.fullbodystretchesindex2 {
+    width: 330px;
+    height: 80px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    text-align: left;
+    text-indent: 14px;
+    flex-wrap: wrap;
+    align-content: center;
+    color: gray;
+    padding-right: 0px; /*subject to change*/
+}
+.fbi_link {
+    color: #E86100;
+    text-decoration: none;
 }
 .glossaryoptions {
     color: #0080FF;
-    font-family: helvetica;
+    text-decoration: none;
 }
 .glossaryoptions:link, .glossaryoptions:visited {
     color:#0080FF;
@@ -53,11 +98,34 @@ body {
     border: none;
     position: relative;
 }
-
-.button_center {
+.navigation2 {
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: none;
+    position: relative;
+}
+.button_left , .button_center , .button_right {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    align-content: center;
+}
+.centerbuttons {
     text-align: center;
 }
 .navigation:hover {
+    background-color:#1164B4;
+}
+.navigation2:hover {
     background-color:#1164B4;
 }
 .linkoptions {
