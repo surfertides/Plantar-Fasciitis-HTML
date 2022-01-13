@@ -1,5 +1,6 @@
 body {
     font-family: arial;
+    background-color: #F5F5F5;
 }
 .title {
     background-color:black;
@@ -134,4 +135,10 @@ body {
 }
 .linkoptions:link, .linkoptions:visited {
     color: white;
+}
+#youredone {
+    font-size: 120%;
+    text-align: center;
+    color: #68246D;
+    font-family: arial, Impact, 'Arial Narrow Bold'
 }
