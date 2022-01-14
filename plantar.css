@@ -142,3 +142,7 @@ body {
     color: #68246D;
     font-family: arial, Impact, 'Arial Narrow Bold'
 }
+
+.different {
+    color: red;
+}
